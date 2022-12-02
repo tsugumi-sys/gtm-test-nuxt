@@ -1,10 +1,7 @@
 export default {
-  // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: true,
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'spa',
+    title: 'ssr',
     htmlAttrs: {
       lang: 'en'
     },
@@ -32,8 +29,6 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/typescript
-    '@nuxt/typescript-build',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

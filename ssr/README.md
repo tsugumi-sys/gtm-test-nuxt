@@ -1,4 +1,4 @@
-# spa
+# ssr
 
 ## Build Setup
 

@@ -1,5 +1,5 @@
 {
-  "name": "spa",
+  "name": "ssr",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -15,8 +15,5 @@
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"
   },
-  "devDependencies": {
-    "@nuxt/types": "^2.15.8",
-    "@nuxt/typescript-build": "^2.1.0"
-  }
+  "devDependencies": {}
 }
