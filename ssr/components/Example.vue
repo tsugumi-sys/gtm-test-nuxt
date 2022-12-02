@@ -8,6 +8,11 @@
 
 <script>
 export default {
-  name: 'ExamplePage'
+  name: 'ExamplePage',
+  head() {
+    return {
+      title: 'ExamplePage'
+    }
+  }
 }
 </script>

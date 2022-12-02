@@ -8,6 +8,11 @@
 
 <script>
 export default {
-  name: 'NuxtTutorial'
+  name: 'NuxtTutorial',
+  head() {
+    return {
+      title: 'IndexPage'
+    }
+  }
 }
 </script>
