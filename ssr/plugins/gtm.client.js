@@ -1,5 +1,5 @@
 export default async ({ app }) => {
-  app.router.beforeEach(() => {
+  app.router.afterEach(() => {
     if (window.dataLayer === undefined) {
       window.dataLayer = [];
     }
